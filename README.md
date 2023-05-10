@@ -11,7 +11,7 @@ GPL v3
 
 ### v0.0.1
 
-* Upgrade to version **0.0.3** of `Tm1637-by-sporniket`
+* Upgrade to version **0.0.3** of _Tm1637-by-sporniket_
 
 ### v0.0.1
 
