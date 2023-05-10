@@ -11,6 +11,10 @@ GPL v3
 
 ### v0.0.1
 
+* Upgrade to version **0.0.3** of `Tm1637-by-sporniket`
+
+### v0.0.1
+
 Initial publishing, extracted from working code.
 
 
