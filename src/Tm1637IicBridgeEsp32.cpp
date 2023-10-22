@@ -67,7 +67,8 @@ Tm1637IicBridgeEsp32::send(const uint8_t *const messageData,
   i2c_master_start(cmd);
   i2c_master_write(cmd, messageData, messageSize, ackMode);
   i2c_master_stop(cmd);
-  esp_err_t status = i2c_master_cmd_begin(recipient, cmd, 10);
+  i2c_port_t port = static_cast<i2c_port_t>(recipient) ;
+  esp_err_t status = i2c_master_cmd_begin(port, cmd, 10);
   i2c_cmd_link_delete(cmd);
   BridgeStatus<esp_err_t> result = {.ok = (ESP_OK == status), .errorCode = status};
   return result;
