@@ -9,7 +9,11 @@ GPL v3
 
 ## What's new
 
-### v0.0.1
+### v0.0.3
+
+* Supports IDF v5.1 (fixed 'int to enum' conversion problem)
+
+### v0.0.2
 
 * Upgrade to version **0.0.3** of _Tm1637-by-sporniket_
 
